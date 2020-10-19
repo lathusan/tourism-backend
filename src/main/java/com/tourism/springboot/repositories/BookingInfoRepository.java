@@ -3,9 +3,9 @@ package com.tourism.springboot.repositories;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.tourism.springboot.entities.Sample;
+import com.tourism.springboot.entities.BookingInfo;
 
 @Repository
-public interface SampleRepository extends JpaRepository<Sample, Long> {
+public interface BookingInfoRepository extends JpaRepository<BookingInfo, Long> {
 
 }
