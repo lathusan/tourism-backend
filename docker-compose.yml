@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  tuorbackend:
+    build: .
+    container_name: tuorbackend
+    ports:
+      - "8080:8080"
